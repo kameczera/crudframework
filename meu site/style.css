@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(18, 18, 46); /* 135,135,224 azul pastel */
+
+}
+.intro{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.sobre{
+    height: 100%;
+    width: 100%;
+    
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 70px;
+    display:block;
+    padding-top: 450px;
+    padding-left: 200px;
+    color: aliceblue;
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    display:block;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 200px;
+    color:aliceblue;
+}
+h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    display:block;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 200px;
+    color:aliceblue;
+    padding-top: 20%;
+}
+#blink {
+    animation: blink 1.5s infinite;
+    color:rgb(240, 240, 120);
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  #kamei{
+      color:rgb(240, 240, 120);
+
+  }
+
+  .sidenav {
+    height: 30%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px; /* Place content 60px from the top */
+    padding-right: 200px;
+  }
+a{
+    color:aliceblue;
+    font-family: 'Comfortaa', cursive;
+}
+p{
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  display:block;
+  font-family: 'Comfortaa', cursive;
+  padding-left: 200px;
+  color:aliceblue;
+}
+b{
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  display:block;
+  font-family: 'Comfortaa', cursive;
+  padding-left: 200px;
+  color:aliceblue;
+  font-weight: bold;
+}
